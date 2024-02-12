@@ -1,0 +1,127 @@
+body {
+    font-family: Trebuchet MS, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    color: rgb(6, 0, 0);
+    text-align: center;
+    padding: 1em;
+    font-size: 50px;
+}
+
+.logos {
+    text-align: left;
+}
+
+.logo {
+    height: 22px;
+    width: 25px;
+}
+
+.menu-container {
+    position: absolute;
+    top: 10%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 2rem;
+    height: 2rem;
+    text-align: right;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 0.5rem;
+    text-align: left;
+    color: #000;
+    background-color: #fff;
+    border-radius: 0.375rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px !important;
+}
+
+.dropdown a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown.show {
+    display: block;
+}
+
+nav {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 0.5em;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0.8, 0, 0, );
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+}
+
+nav a:hover {
+    background-color: #888;
+}
+
+main {
+    display: flex;
+    padding: 20px; /* Adjust as needed */
+}
+
+.article-post {
+    width: 100%;
+    margin-right: 20px; /* Adjust spacing between articles */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.article-post p {
+    padding: 20px; 
+    font-size: 30px;
+    margin: 0;
+}
+.article-post img {
+    width: 800px;
+    height: auto;
+}
+.reference {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 10px; 
+} 
+
+footer {
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.bg {
+    background-color: #888;
+}
